@@ -1,0 +1,48 @@
+.Register input{
+
+    display: block;
+    margin: 5px;
+    width: 300px;
+}
+.Register label{
+
+    color: black;
+    font-weight: bold;
+}
+.Register h4{
+
+    text-align: center;
+}
+.Register {
+
+    background-color:  #03befc;
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+}
+
+.Register button{
+
+    margin: 5px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    color: white;
+    height: 32px;
+    margin-left: 45px;
+    
+}
+
+.inputs{
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.inputs p{
+
+    color: red;
+    margin-left: 6px;
+}

@@ -1,0 +1,22 @@
+<div class = "y">
+    <h3>Please Login Your Account!!!!!!</h3>
+
+</div>
+<div class = "login">
+
+    <h4>Login</h4>
+    
+    <div class = "inputs">
+        <label for="">Email:</label>
+        <input type="text" [(ngModel)] = "vid.email" placeholder="Email">
+        <p *ngIf = "texts">You Enterd Wrong Email</p>
+        <label for="">Password:</label>
+        <input type="text" [(ngModel)] = "vid.confrom" placeholder="Password">
+        <p *ngIf = "texts1">You Enterd Wrong Password</p>
+        <button (click) = "foc()">Submit</button>
+    </div>
+
+    
+    
+    
+</div>

@@ -1,0 +1,33 @@
+
+<div class = "book-list">
+
+    <h4>Programing Books List!!!</h4>
+
+    <div class = "buttons">
+
+        <button  (click) = "lists()">
+
+            <ng-container *ngIf = "select">Hide Books</ng-container>
+            <ng-container *ngIf = "!select">Show Books</ng-container>
+            
+        </button>
+    </div>
+
+         <div class = "lists" *ngIf = "select">
+            <ul  *ngFor = "let books of Booklist">
+
+               <img src="{{books.image}}" alt="">
+               <div class = "test">
+                 <li>{{books.name | titlecase}} written by {{books.Author | titlecase}}</li> 
+                 <li>{{books.amount | currency : 'INR'}}</li>
+              </div>
+
+                <button (click) = "addcart(books)">Add Cart</button>
+                              
+
+            </ul>
+
+        </div>
+
+        
+    </div>

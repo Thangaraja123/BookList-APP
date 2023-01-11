@@ -1,0 +1,15 @@
+<div class = "list" >
+
+    <h4>User Detail List:</h4>
+
+    <ul *ngFor = "let yet of list">
+        <li>Email : {{yet.email}}</li>
+        <li>Password : {{yet.password}}</li>
+         <li>Conform : {{yet.conform}}</li>   
+
+         <div class = "buttons">
+            <button routerLink = "/userlist/edit">Edit</button>
+            <button routerLink = "/userlist/Delete">Delete</button>
+         </div>
+    </ul>
+</div>

@@ -1,0 +1,84 @@
+.book-list h4{
+
+    font-size: 22px;
+}
+
+.book-list {
+
+    padding: 20px;
+}
+
+
+.buttons{
+
+    padding: 10px;
+}
+
+.buttons button {
+
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    height: 35px;
+    
+}
+
+.buttons button:hover{
+
+    background-color: green;
+}
+
+.lists{
+
+    padding: 20px
+}
+
+.lists ul{
+
+    border: 2px solid gray;
+    height: 200px;
+    width: 370px;
+    padding: 15px;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 20px 20px;
+    background-color: lightgrey;
+    cursor: pointer;
+    border: none;
+
+}
+
+.lists ul  img{
+
+    height: 140px;
+}
+
+.lists ul li {
+
+    list-style-type: none;
+    margin: 5px;
+}
+
+
+.test {
+ 
+    margin-left: 140px;
+    margin-top: -100px;
+    font-size: 17px;
+}
+
+.lists button{
+
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 30px;
+    margin-left: 145px;
+}
+
+.lists button:hover{
+
+    background-color: blue;
+}

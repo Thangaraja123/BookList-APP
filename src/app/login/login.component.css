@@ -1,0 +1,62 @@
+.login{
+
+    border: 2px solid gray;
+    margin-left: 550px;
+    margin-top: 30px;
+    width: 400px;
+    background-color: #03befc;
+    border: none;
+    padding: 10px
+}
+
+.login h4 {
+
+    text-align: center;
+    font-weight: bold;
+}
+
+.inputs{
+
+    margin-left: 20px;
+}
+
+.inputs input{
+
+    display: block;
+    margin: 10px;
+    width: 300px;
+}
+
+.inputs label{
+
+    color: black;
+    font-weight: bold;
+}
+
+.inputs button{
+
+    background-color: green;
+    border: none;
+    width: 300px;
+    margin-left: 10px;
+    color: white;
+    height: 30px;
+    margin: 10px;
+    border-radius: 7px;
+}
+p{
+    color: white;
+    margin-left: 10px;
+    border: 1px solid red;
+    background-color: red;
+    text-align: center;
+    width: 300px;
+    font-weight: bold;
+}
+
+.y h3{
+
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 600px;
+}

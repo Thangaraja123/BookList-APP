@@ -1,0 +1,40 @@
+h4 {
+
+  margin-left: 50px;
+}
+
+.lists ul li{
+
+  list-style-type: none;
+  
+}
+
+.lists {
+
+  margin-left: 100px;
+  border: 1px solid brown;
+  width: 400px;
+  background-color: brown;
+  font-weight: bold;
+  color: white;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.buttons{
+
+  margin-left: 400px;
+  margin-top: -20px;
+  
+}
+
+.buttons button {
+
+  background-color: cadetblue;
+  height: 35px;
+  width: 70px;
+  border-radius: 5px;
+  background-color: blue;
+  border: none;
+  font-weight: bold;
+}
